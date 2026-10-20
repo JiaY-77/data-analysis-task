@@ -1,0 +1,27 @@
+# 原始数据（公司数据，绝不推公开仓库）
+data/
+*.csv
+# 放行交付物
+!out/*.csv
+!out/**/*.csv
+!out/*.png
+!out/**/*.png
+# 环境
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# 日志
+*.log
+
+# 非本次交付（工具箱脚本 / 内部手册 / 逐单明细）
+ad_analysis.py
+analyze.py
+auto.py
+scan.py
+plot_ads.py
+push.sh
+作战手册.md
+README_模板.md
+AI_LOG_模板.md
+out/cleaned_with_lag.csv
