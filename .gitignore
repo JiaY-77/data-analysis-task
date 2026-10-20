@@ -25,3 +25,7 @@ push.sh
 README_模板.md
 AI_LOG_模板.md
 out/cleaned_with_lag.csv
+
+# 审查过程文件
+review_prompt.txt
+oc_review.log
